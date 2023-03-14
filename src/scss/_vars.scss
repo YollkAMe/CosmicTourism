@@ -1,6 +1,6 @@
 // Container & Breakpoints
 @use 'sass:math';
-$containerWidth: 1200;
+$containerWidth: 1198;
 $containerPadding: 40;
 $containerSidePadding: math.div($containerPadding, 2);
 $breakpoint1450: 1449.98 + px;
@@ -19,7 +19,15 @@ $burgerActiveColor: 'white';
 
 // Fonts
 
-$fontFamily: Roboto, sans-serif; // Семейство шрифта по умолчанию
-$fontColor: #000; // Цвет шрифта по умолчанию
+$fontFamily: SFProDisplay, sans-serif; // Семейство шрифта по умолчанию
+$secondaryFont: Roboto;
+$accentFont: Spaceagecyrillic;
 $fontSize: rem(16); // Размер шрифта по умолчанию
 $fontWeight: 400; // Жирность шрифта по умолчанию
+
+
+// Colors
+
+$fontColor: #fff; // Цвет основного шрифта по умолчанию
+$accentColor: #036cca;
+$activeColor: #cb0e0e;

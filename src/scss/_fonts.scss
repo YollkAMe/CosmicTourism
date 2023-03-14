@@ -1,4 +1,21 @@
 @font-face {
-    font-family: '';
-    src: url('') format('');
+    font-family: 'Spaceagecyrillic';
+    src: url(./spaceagecyrillicregular.woff) format('woff'),
+    url(./spaceagecyrillicregular.woff2) format('woff2');
+    font-style: normal;
+    font-weight: 400;
+}
+@font-face {
+    font-family: 'SFProDisplay';
+    src: url(./SFProDisplay-Regular.woff) format('woff'),
+    url(./SFProDisplay-Regular.woff2) format('woff2');
+    font-style: normal;
+    font-weight: 400;
+}
+@font-face {
+    font-family: 'SFProDisplay';
+    src: url(./SFProDisplay-Bold.woff) format('woff'),
+    url(./SFProDisplay-Bold.woff2) format('woff2');
+    font-style: normal;
+    font-weight: 700;
 }
